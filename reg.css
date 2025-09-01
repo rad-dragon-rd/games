@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+    
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top{
+    background: rgba(0, 255, 238, 0.9);
+}
+.top div{
+    background: rgba(0, 255, 238, 0.9);
+    display: inline-block;
+    width: 750px;
+    padding: 25px;
+    vertical-align: top;
+    text-align: center;
+}
+.top a{
+    background: whitesmoke;
+    padding: 35px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.main{
+    padding: 25px;
+    background: #171717;
+}
+fieldset{
+    padding: 30px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+fieldset legend{
+    font-size: 25px;
+    font-weight: 700;
+}
+fieldset input{
+    display: block;
+    margin-bottom:25px ;
+    font-size: 20px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom:2px solid white ;
+    background: none;
+    color: white;
+    padding: 5px;
+}
